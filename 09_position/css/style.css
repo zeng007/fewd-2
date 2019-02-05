@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  /* todo restrict width to 800px */
+  /* then center the entire container */
+  /*max-width and width: percentage*/
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.container h1 {
+  text-align: center;
+}
+.container p {
+  margin: 20px;
+}
+
+.imageContainer {
+  display: flex;
+}
+.imageContainer div {
+  width: 50%;
+}
+/*make image in the div not overlapping*/
+.imageContainer div img {
+  width: 100%;
+  height: auto;
+}
+
+.cornerFork {
+  /* todo position in the top right corner */
+
+  /*intersect content and overlap it*/
+  position: absolute;
+  top:0px;
+  right:0px;
+}
+.cornerForkImage {
+  width: 200px;
+  height: auto;
+}
+
+.helpBox {
+  /* todo position 30px off the bottom right of the screen */
+  /*fix is always in the screen*/
+  position: fixed;
+  /*away from bottom and right for 30px*/
+  bottom: 30px;
+  right: 30px;
+
+
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: lightgrey;
+}

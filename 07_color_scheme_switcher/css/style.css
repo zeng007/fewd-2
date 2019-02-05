@@ -1,0 +1,30 @@
+body {
+  margin: 50px;
+}
+
+#switcher {
+  display: flex;
+}
+#switcher span {
+  cursor: pointer;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 3px solid black;
+
+  margin-left: 15px;
+}
+#switcher span:first-child {
+  margin-left: 0px;
+}
+
+#grayButton {
+  background: gray;
+}
+#whiteButton {
+  background: white;
+}
+#blueButton{
+  background: blue;
+}
